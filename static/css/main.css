@@ -1,0 +1,10 @@
+.main_nav{
+    background-color: hotpink;
+}
+
+.err{
+    background-color:rgb(192, 192, 33);
+}
+p{
+    text-transform: capitalize;
+}

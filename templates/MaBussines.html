@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaBussines</title>
+    <link rel="stylesheet" href="{% static  'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+    
+  {% include 'navbase.html' %}
+
+
+      <div class="container">
+        <p class="card-header text-center font-weight-bolder h3 text-info">Bussines Analysis</p>
+        <div class="row">
+          <div class="col-2">
+          <ul class ="list-group">
+            <li class="list-group-item">
+              <button class="btn font-weight-bolder" id="AddProduct" style="color: cornflowerblue;">Add product</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn font-weight-bolder" id="ProductInventory" style="color: cornflowerblue;">Product inventory</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn font-weight-bolder" id="DailyRecord" style="color: cornflowerblue;">Daily Entry</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn font-weight-bolder" id="ProductForcasting" style="color: cornflowerblue;">Product Forcasting</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn font-weight-bolder" id="BussinesForcasting" style="color: cornflowerblue;">Bussines Forcasting</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn font-weight-bolder" id="BussinesAnalysis" style="color: cornflowerblue;">Bussines Analysis</button>
+            </li>
+            <li class="list-group-item">
+              <button class="btn font-weight-bolder" id="ShopRefill" style="color: cornflowerblue;">Shop refilling</button>
+            </li>
+          </ul>
+          </div>
+          <div class="col-8">
+             <div class="action">
+
+             </div>
+          </div>
+        </div>
+      </div>
+
+    <script>
+      action_add = document.getElementById('AddProduct')
+      action_inv = document.getElementById('ProductInventory')
+      action_daily_entry = document.getElementById('')
+      function Dothis(){
+        
+      }
+    </script>
+
+
+
+   <script src="{% static 'js/jquery_3.3.1.js' %}"></script>
+   <script src="{% static 'js/popper.min.js' %}"></script>
+   <script src="{% static 'js/bootstrap.js' %}"></script>        
+</body>
+</html>
